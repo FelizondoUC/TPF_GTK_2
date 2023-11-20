@@ -11,12 +11,8 @@
 
 // JUEGA HUMANO. Elegir fila y columna
 void juegaHumano(int player) {
-	int i, j;
+	int i = 0, j = 0;
 
-	if ( i==-1 || j ==-1) {
-		printf("\n¡Lo sentimos has perdido! Elegiste rendirte.");
-		exit(0);
-	}
 
 	if (player == PLAYER1) // Player1, dados 1-6
 		board[i][j] = 1;
