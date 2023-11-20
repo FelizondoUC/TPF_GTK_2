@@ -74,31 +74,31 @@ GObject *boton22;
 GObject *boton23;
 GObject *boton24;
 GObject *boton25;
-GObject *Dado_Boton1;
-GObject *Dado_Boton2;
-GObject *Dado_Boton3;
-GObject *Dado_Boton4;
-GObject *Dado_Boton5;
-GObject *Dado_Boton6;
-GObject *Dado_Boton7;
-GObject *Dado_Boton8;
-GObject *Dado_Boton9;
-GObject *Dado_Boton10;
-GObject *Dado_Boton11;
-GObject *Dado_Boton12;
-GObject *Dado_Boton13;
-GObject *Dado_Boton14;
-GObject *Dado_Boton15;
-GObject *Dado_Boton16;
-GObject *Dado_Boton17;
-GObject *Dado_Boton18;
-GObject *Dado_Boton19;
-GObject *Dado_Boton20;
-GObject *Dado_Boton21;
-GObject *Dado_Boton22;
-GObject *Dado_Boton23;
-GObject *Dado_Boton24;
-GObject *Dado_Boton25;
+GtkWidget *Dado_Boton1;
+GtkWidget  *Dado_Boton2;
+GtkWidget  *Dado_Boton3;
+GtkWidget  *Dado_Boton4;
+GtkWidget  *Dado_Boton5;
+GtkWidget  *Dado_Boton6;
+GtkWidget  *Dado_Boton7;
+GtkWidget  *Dado_Boton8;
+GtkWidget  *Dado_Boton9;
+GtkWidget  *Dado_Boton10;
+GtkWidget  *Dado_Boton11;
+GtkWidget  *Dado_Boton12;
+GtkWidget  *Dado_Boton13;
+GtkWidget  *Dado_Boton14;
+GtkWidget  *Dado_Boton15;
+GtkWidget  *Dado_Boton16;
+GtkWidget  *Dado_Boton17;
+GtkWidget  *Dado_Boton18;
+GtkWidget  *Dado_Boton19;
+GtkWidget  *Dado_Boton20;
+GtkWidget  *Dado_Boton21;
+GtkWidget  *Dado_Boton22;
+GtkWidget  *Dado_Boton23;
+GtkWidget  *Dado_Boton24;
+GtkWidget  *Dado_Boton25;
 
 int opcion;
 int color;
@@ -252,11 +252,11 @@ void colocar_imagen1()
 	if(color == 1)
 	{
 		Dado_Boton1 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton1),Dado_Boton1);
+		gtk_button_set_image(GTK_BUTTON(boton1),GTK_WIDGET(Dado_Boton1));
 	}else if (color == 2)
 	{
 		Dado_Boton1 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton1),Dado_Boton1);
+		gtk_button_set_image(GTK_BUTTON(boton1),GTK_WIDGET(Dado_Boton1));
 	}
 }
 
@@ -265,11 +265,11 @@ void colocar_imagen2()
 	if(color == 1)
 	{
 		Dado_Boton2 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton2),Dado_Boton2);
+		gtk_button_set_image(GTK_BUTTON(boton2),GTK_WIDGET(Dado_Boton2));
 	}else if (color == 2)
 	{
 		Dado_Boton2 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton2),Dado_Boton2);
+		gtk_button_set_image(GTK_BUTTON(boton2),GTK_WIDGET(Dado_Boton2));
 	}
 }
 
@@ -278,11 +278,11 @@ void colocar_imagen3()
 	if(color == 1)
 	{
 		Dado_Boton3 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton3),Dado_Boton3);
+		gtk_button_set_image(GTK_BUTTON(boton3),GTK_WIDGET(Dado_Boton3));
 	}else if (color == 2)
 	{
 		Dado_Boton3 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton3),Dado_Boton3);
+		gtk_button_set_image(GTK_BUTTON(boton3),GTK_WIDGET(Dado_Boton3));
 	}
 }
 
@@ -291,11 +291,11 @@ void colocar_imagen4()
 	if(color == 1)
 	{
 		Dado_Boton4 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton4),Dado_Boton4);
+		gtk_button_set_image(GTK_BUTTON(boton4),GTK_WIDGET(Dado_Boton4));
 	}else if (color == 2)
 	{
 		Dado_Boton4 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton4),Dado_Boton4);
+		gtk_button_set_image(GTK_BUTTON(boton4),GTK_WIDGET(Dado_Boton4));
 	}
 }
 
@@ -304,11 +304,11 @@ void colocar_imagen5()
 	if(color == 1)
 	{
 		Dado_Boton5 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton5),Dado_Boton5);
+		gtk_button_set_image(GTK_BUTTON(boton5),GTK_WIDGET(Dado_Boton5));
 	}else if (color == 2)
 	{
 		Dado_Boton5 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton5),Dado_Boton5);
+		gtk_button_set_image(GTK_BUTTON(boton5),GTK_WIDGET(Dado_Boton5));
 	}
 }
 
@@ -317,11 +317,11 @@ void colocar_imagen6()
 	if(color == 1)
 	{
 		Dado_Boton6 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton6),Dado_Boton6);
+		gtk_button_set_image(GTK_BUTTON(boton6),GTK_WIDGET(Dado_Boton6));
 	}else if (color == 2)
 	{
 		Dado_Boton6 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton6),Dado_Boton6);
+		gtk_button_set_image(GTK_BUTTON(boton6),GTK_WIDGET(Dado_Boton6));
 	}
 }
 
@@ -330,11 +330,11 @@ void colocar_imagen7()
 	if(color == 1)
 	{
 		Dado_Boton7 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton7),Dado_Boton7);
+		gtk_button_set_image(GTK_BUTTON(boton7),GTK_WIDGET(Dado_Boton7));
 	}else if (color == 2)
 	{
 		Dado_Boton7 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton7),Dado_Boton7);
+		gtk_button_set_image(GTK_BUTTON(boton7),GTK_WIDGET(Dado_Boton7));
 	}
 }
 
@@ -343,11 +343,11 @@ void colocar_imagen8()
 	if(color == 1)
 	{
 		Dado_Boton8 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton8),Dado_Boton8);
+		gtk_button_set_image(GTK_BUTTON(boton8),GTK_WIDGET(Dado_Boton8));
 	}else if (color == 2)
 	{
 		Dado_Boton8 = gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton8),Dado_Boton8);
+		gtk_button_set_image(GTK_BUTTON(boton8),GTK_WIDGET(Dado_Boton8));
 	}
 }
 
@@ -356,11 +356,11 @@ void colocar_imagen9()
 	if(color == 1)
 	{
 		Dado_Boton9 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton9),Dado_Boton9);
+		gtk_button_set_image(GTK_BUTTON(boton9),GTK_WIDGET(Dado_Boton9));
 	}else if (color == 2)
 	{
 		Dado_Boton9 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton9),Dado_Boton9);
+		gtk_button_set_image(GTK_BUTTON(boton9),GTK_WIDGET(Dado_Boton9));
 	}
 }
 
@@ -369,11 +369,11 @@ void colocar_imagen10()
 	if(color == 1)
 	{
 		Dado_Boton10 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton10),Dado_Boton10);
+		gtk_button_set_image(GTK_BUTTON(boton10),GTK_WIDGET(Dado_Boton10));
 	}else if (color == 2)
 	{
 		Dado_Boton10 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton10),Dado_Boton10);
+		gtk_button_set_image(GTK_BUTTON(boton10),GTK_WIDGET(Dado_Boton10));
 	}
 }
 
@@ -382,11 +382,11 @@ void colocar_imagen11()
 	if(color == 1)
 	{
 		Dado_Boton11 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton11),Dado_Boton11);
+		gtk_button_set_image(GTK_BUTTON(boton11),GTK_WIDGET(Dado_Boton11));
 	}else if (color == 2)
 	{
 		Dado_Boton11 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton11),Dado_Boton11);
+		gtk_button_set_image(GTK_BUTTON(boton11),GTK_WIDGET(Dado_Boton11));
 	}
 }
 
@@ -395,11 +395,11 @@ void colocar_imagen12()
 	if(color == 1)
 	{
 		Dado_Boton12 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton12),Dado_Boton12);
+		gtk_button_set_image(GTK_BUTTON(boton12),GTK_WIDGET(Dado_Boton12));
 	}else if (color == 2)
 	{
 		Dado_Boton12 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton12),Dado_Boton12);
+		gtk_button_set_image(GTK_BUTTON(boton12),GTK_WIDGET(Dado_Boton12));
 	}
 }
 
@@ -408,11 +408,11 @@ void colocar_imagen13()
 	if(color == 1)
 	{
 		Dado_Boton13 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton13),Dado_Boton13);
+		gtk_button_set_image(GTK_BUTTON(boton13),GTK_WIDGET(Dado_Boton13));
 	}else if (color == 2)
 	{
 		Dado_Boton13 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton13),Dado_Boton13);
+		gtk_button_set_image(GTK_BUTTON(boton13),GTK_WIDGET(Dado_Boton13));
 	}
 }
 
@@ -421,11 +421,11 @@ void colocar_imagen14()
 	if(color == 1)
 	{
 		Dado_Boton14 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton14),Dado_Boton14);
+		gtk_button_set_image(GTK_BUTTON(boton14),GTK_WIDGET(Dado_Boton14));
 	}else if (color == 2)
 	{
 		Dado_Boton14 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton14),Dado_Boton14);
+		gtk_button_set_image(GTK_BUTTON(boton14),GTK_WIDGET(Dado_Boton14));
 	}
 }
 
@@ -434,11 +434,11 @@ void colocar_imagen15()
 	if(color == 1)
 	{
 		Dado_Boton15 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton15),Dado_Boton15);
+		gtk_button_set_image(GTK_BUTTON(boton15),GTK_WIDGET(Dado_Boton15));
 	}else if (color == 2)
 	{
 		Dado_Boton15 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton15),Dado_Boton15);
+		gtk_button_set_image(GTK_BUTTON(boton15),GTK_WIDGET(Dado_Boton15));
 	}
 }
 
@@ -447,11 +447,11 @@ void colocar_imagen16()
 	if(color == 1)
 	{
 		Dado_Boton16 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton16),Dado_Boton16);
+		gtk_button_set_image(GTK_BUTTON(boton16),GTK_WIDGET(Dado_Boton16));
 	}else if (color == 2)
 	{
 		Dado_Boton16 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton16),Dado_Boton16);
+		gtk_button_set_image(GTK_BUTTON(boton16),GTK_WIDGET(Dado_Boton16));
 	}
 }
 
@@ -460,11 +460,11 @@ void colocar_imagen17()
 	if(color == 1)
 	{
 		Dado_Boton17 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton17),Dado_Boton17);
+		gtk_button_set_image(GTK_BUTTON(boton17),GTK_WIDGET(Dado_Boton17));
 	}else if (color == 2)
 	{
 		Dado_Boton17 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton17),Dado_Boton17);
+		gtk_button_set_image(GTK_BUTTON(boton17),GTK_WIDGET(Dado_Boton17));
 	}
 }
 
@@ -473,11 +473,11 @@ void colocar_imagen18()
 	if(color == 1)
 	{
 		Dado_Boton18 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton18),Dado_Boton18);
+		gtk_button_set_image(GTK_BUTTON(boton18),GTK_WIDGET(Dado_Boton18));
 	}else if (color == 2)
 	{
 		Dado_Boton18 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton18),Dado_Boton18);
+		gtk_button_set_image(GTK_BUTTON(boton18),GTK_WIDGET(Dado_Boton18));
 	}
 }
 
@@ -486,11 +486,11 @@ void colocar_imagen19()
 	if(color == 1)
 	{
 		Dado_Boton19 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton19),Dado_Boton19);
+		gtk_button_set_image(GTK_BUTTON(boton19),GTK_WIDGET(Dado_Boton19));
 	}else if (color == 2)
 	{
 		Dado_Boton19 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton19),Dado_Boton19);
+		gtk_button_set_image(GTK_BUTTON(boton19),GTK_WIDGET(Dado_Boton19));
 	}
 }
 
@@ -499,11 +499,11 @@ void colocar_imagen20()
 	if(color == 1)
 	{
 		Dado_Boton20 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton20),Dado_Boton20);
+		gtk_button_set_image(GTK_BUTTON(boton20),GTK_WIDGET(Dado_Boton20));
 	}else if (color == 2)
 	{
 		Dado_Boton20 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton20),Dado_Boton20);
+		gtk_button_set_image(GTK_BUTTON(boton20),GTK_WIDGET(Dado_Boton20));
 	}
 }
 
@@ -512,11 +512,11 @@ void colocar_imagen21()
 	if(color == 1)
 	{
 		Dado_Boton21 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton21),Dado_Boton21);
+		gtk_button_set_image(GTK_BUTTON(boton21),GTK_WIDGET(Dado_Boton21));
 	}else if (color == 2)
 	{
 		Dado_Boton21 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton21),Dado_Boton21);
+		gtk_button_set_image(GTK_BUTTON(boton21),GTK_WIDGET(Dado_Boton21));
 	}
 }
 
@@ -525,11 +525,11 @@ void colocar_imagen22()
 	if(color == 1)
 	{
 		Dado_Boton22 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton22),Dado_Boton22);
+		gtk_button_set_image(GTK_BUTTON(boton22),GTK_WIDGET(Dado_Boton22));
 	}else if (color == 2)
 	{
 		Dado_Boton22 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton22),Dado_Boton22);
+		gtk_button_set_image(GTK_BUTTON(boton22),GTK_WIDGET(Dado_Boton22));
 	}
 }
 
@@ -538,11 +538,11 @@ void colocar_imagen23()
 	if(color == 1)
 	{
 		Dado_Boton23 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton23),Dado_Boton23);
+		gtk_button_set_image(GTK_BUTTON(boton23),GTK_WIDGET(Dado_Boton23));
 	}else if (color == 2)
 	{
 		Dado_Boton23 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton23),Dado_Boton23);
+		gtk_button_set_image(GTK_BUTTON(boton23),GTK_WIDGET(Dado_Boton23));
 	}
 }
 
@@ -551,11 +551,11 @@ void colocar_imagen24()
 	if(color == 1)
 	{
 		Dado_Boton24 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton24),Dado_Boton24);
+		gtk_button_set_image(GTK_BUTTON(boton24),GTK_WIDGET(Dado_Boton24));
 	}else if (color == 2)
 	{
 		Dado_Boton24 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton24),Dado_Boton24);
+		gtk_button_set_image(GTK_BUTTON(boton24),GTK_WIDGET(Dado_Boton24));
 	}
 }
 
@@ -564,11 +564,11 @@ void colocar_imagen25()
 	if(color == 1)
 	{
 		Dado_Boton25 =  gtk_image_new_from_file("Dado_Rojo1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton25),Dado_Boton25);
+		gtk_button_set_image(GTK_BUTTON(boton25),GTK_WIDGET(Dado_Boton25));
 	}else if (color == 2)
 	{
 		Dado_Boton25 =  gtk_image_new_from_file("Dado_Verde1.jpeg");
-		gtk_button_set_image(GTK_BUTTON(boton25),Dado_Boton25);
+		gtk_button_set_image(GTK_BUTTON(boton25),GTK_WIDGET(Dado_Boton25));
 	}
 }
 
@@ -644,31 +644,31 @@ void colocar_imagen25()
 
     //Asignación de las imágenes de los botones del tablero
 
-    Dado_Boton1 = gtk_builder_get_object (builder,"Dado_Boton1");
-    Dado_Boton2 = gtk_builder_get_object (builder,"Dado_Boton2");
-    Dado_Boton3 = gtk_builder_get_object (builder,"Dado_Boton3");
-    Dado_Boton4 = gtk_builder_get_object (builder,"Dado_Boton4");
-    Dado_Boton5 = gtk_builder_get_object (builder,"Dado_Boton5");
-    Dado_Boton6 = gtk_builder_get_object (builder,"Dado_Boton6");
-    Dado_Boton7 = gtk_builder_get_object (builder,"Dado_Boton7");
-    Dado_Boton8 = gtk_builder_get_object (builder,"Dado_Boton8");
-    Dado_Boton9 = gtk_builder_get_object (builder,"Dado_Boton9");
-    Dado_Boton10 = gtk_builder_get_object (builder,"Dado_Boton10");
-    Dado_Boton11 = gtk_builder_get_object (builder,"Dado_Boton11");
-    Dado_Boton12 = gtk_builder_get_object (builder,"Dado_Boton12");
-    Dado_Boton13 = gtk_builder_get_object (builder,"Dado_Boton13");
-    Dado_Boton14 = gtk_builder_get_object (builder,"Dado_Boton14");
-    Dado_Boton15 = gtk_builder_get_object (builder,"Dado_Boton15");
-    Dado_Boton16 = gtk_builder_get_object (builder,"Dado_Boton16");
-    Dado_Boton17 = gtk_builder_get_object (builder,"Dado_Boton17");
-    Dado_Boton18 = gtk_builder_get_object (builder,"Dado_Boton18");
-    Dado_Boton19 = gtk_builder_get_object (builder,"Dado_Boton19");
-    Dado_Boton20 = gtk_builder_get_object (builder,"Dado_Boton20");
-    Dado_Boton21 = gtk_builder_get_object (builder,"Dado_Boton21");
-    Dado_Boton22 = gtk_builder_get_object (builder,"Dado_Boton22");
-    Dado_Boton23 = gtk_builder_get_object (builder,"Dado_Boton23");
-    Dado_Boton24 = gtk_builder_get_object (builder,"Dado_Boton24");
-    Dado_Boton25 = gtk_builder_get_object (builder,"Dado_Boton25");
+    Dado_Boton1 = GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton1"));
+    Dado_Boton2 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton2"));
+    Dado_Boton3 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton3"));
+    Dado_Boton4 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton4"));
+    Dado_Boton5 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton5"));
+    Dado_Boton6 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton6"));
+    Dado_Boton7 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton7"));
+    Dado_Boton8 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton8"));
+    Dado_Boton9 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton9"));
+    Dado_Boton10 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton10"));
+    Dado_Boton11 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton11"));
+    Dado_Boton12 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton12"));
+    Dado_Boton13 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton13"));
+    Dado_Boton14 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton14"));
+    Dado_Boton15 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton15"));
+    Dado_Boton16 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton16"));
+    Dado_Boton17 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton17"));
+    Dado_Boton18 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton18"));
+    Dado_Boton19 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton19"));
+    Dado_Boton20 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton20"));
+    Dado_Boton21 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton21"));
+    Dado_Boton22 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton22"));
+    Dado_Boton23 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton23"));
+    Dado_Boton24 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton24"));
+    Dado_Boton25 =  GTK_WIDGET(gtk_builder_get_object (builder,"Dado_Boton25"));
 
     //Callbacks que terminan el codigo
     g_signal_connect (Ventana_Principal, "destroy", G_CALLBACK (gtk_main_quit), NULL);
@@ -734,4 +734,6 @@ void colocar_imagen25()
     gtk_main ();
 
     return 0;
+ }
+
  }
